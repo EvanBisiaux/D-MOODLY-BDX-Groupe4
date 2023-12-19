@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moods",
+  "info": {
+    "singularName": "mood",
+    "pluralName": "moods",
+    "displayName": "Mood",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Emotion": {
+      "type": "enumeration",
+      "enum": [
+        "Admiration",
+        "Amusement",
+        "Anticipation",
+        "Apathie",
+        "Béatitude",
+        "Compassion",
+        "Contemplation",
+        "Courage",
+        "Découragement",
+        "Désillusion",
+        "Désintérêt",
+        "Doute",
+        "Euphorie",
+        "Exaltation",
+        "Exaspération",
+        "Fascination",
+        "Gêne",
+        "Impatience",
+        "Incertitude",
+        "Inquiétude",
+        "Introspection",
+        "Ivresse",
+        "Lassitude",
+        "Optimisme",
+        "Pessimisme",
+        "Plénitude",
+        "Ravissement",
+        "Réconfort",
+        "Ressentiment",
+        "Stupeur",
+        "Calme ",
+        "Heureux",
+        "Energique",
+        "Enjouée",
+        "Irritable",
+        "Triste ",
+        "Angoissée",
+        "Déprimer",
+        "Culpabilité ",
+        "Distrait ",
+        "Fatigue",
+        "Manques d’énergie",
+        "Léthargique",
+        "Perdue"
+      ],
+      "required": true
+    },
+    "Tag": {
+      "type": "enumeration",
+      "enum": [
+        "Personelle",
+        "Travail",
+        "Malade",
+        "Aucun",
+        "Ne sais pas ",
+        "Autre"
+      ],
+      "required": true
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
