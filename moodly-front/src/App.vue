@@ -4,15 +4,13 @@
 </template>
 
 <script>
-import MoodSlider from './components/HelloWorld.vue'
+import {RouterLink, RouterView} from 'vue-router'
+import route from './router/index.js'
 
-export default {
-  name: 'App',
-  components: {
-    MoodSlider  
-  }
-}
 </script>
+
+
+
 
 <style>
 #app {
